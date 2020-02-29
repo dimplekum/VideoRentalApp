@@ -47,29 +47,45 @@
                 Orientation="Vertical"
                 VerticalAlignment="Top">
                 
+                <!-- Custom Custom Navigation Design -->
+                <StackPanel.Resources>
+                    <Style x:Key="Flag" TargetType="RadioButton">
+                        <Style.Triggers>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter Property="Opacity" Value="0.5"/>
+                            </Trigger>
+                        </Style.Triggers>
+
+                        <Setter Property="BorderThickness" Value="2"/>
+
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="RadioButton">
+                                    <Border BorderThickness="{TemplateBinding BorderThickness}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            Background="Transparent"
+                                            CornerRadius="20">                                    
+                                        <Image Source="{Binding Path=Content, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </StackPanel.Resources>
+                
                 <Image
                     x:Name="AppLogo"
-                    Height="75"></Image>
-            
-                <Button
-                    x:Name="Dashboard"
-                    Height="75"></Button>
-            
-                <Button
-                    x:Name="Movies"
-                    Height="75"></Button>
-            
-                <Button
-                    x:Name="Music"
-                    Height="75"></Button>
-            
-                <Button
-                    x:Name="Customers"
-                    Height="75"></Button>
-            
-                <Button
-                    x:Name="Rentals"
-                    Height="75"></Button>
+                    Height="64"
+                    Stretch="None"
+                    Source="Resources/vegas_50px.png">
+                    
+                </Image>
+                
+                <RadioButton GroupName="TabBarNavigation" x:Name="Dashboard" Content="Resources/dashboard_50px.png" Style="{StaticResource Flag}" BorderBrush="DarkRed" Background="Transparent" Width="64" Height="64" Margin="2, 0, 2, 2" IsChecked="True"></RadioButton>
+                <RadioButton GroupName="TabBarNavigation" x:Name="Movies" Content="Resources/film_reel_50px.png" Style="{StaticResource Flag}" BorderBrush="OrangeRed" Background="Transparent" Width="64" Height="64" Margin="2, 0, 2, 2"></RadioButton>
+                <RadioButton GroupName="TabBarNavigation" x:Name="Music" Content="Resources/musical_50px.png" Style="{StaticResource Flag}" BorderBrush="WhiteSmoke" Background="Transparent" Width="64" Height="64" Margin="2, 0, 2, 2"></RadioButton>
+                <RadioButton GroupName="TabBarNavigation" x:Name="Customers" Content="Resources/customer_insight_50px.png" Style="{StaticResource Flag}" BorderBrush="Aqua" Background="Transparent" Width="64" Height="64" Margin="2, 0, 2, 2"></RadioButton>
+                <RadioButton GroupName="TabBarNavigation" x:Name="Rentals" Content="Resources/new_50px.png" Style="{StaticResource Flag}" BorderBrush="BlueViolet" Background="Transparent" Width="64" Height="64" Margin="2, 0, 2, 2"></RadioButton>
                 
             </StackPanel>
             

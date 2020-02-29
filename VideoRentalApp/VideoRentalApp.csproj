@@ -89,6 +89,12 @@
       <Content Include="Fonts\Lato-Light.ttf" />
       <Content Include="Fonts\Lato-LightItalic.ttf" />
       <Content Include="Fonts\Lato-Regular.ttf" />
+      <Resource Include="Resources\customer_insight_50px.png" />
+      <Resource Include="Resources\dashboard_50px.png" />
+      <Resource Include="Resources\film_reel_50px.png" />
+      <Resource Include="Resources\musical_50px.png" />
+      <Resource Include="Resources\new_50px.png" />
+      <Resource Include="Resources\vegas_50px.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

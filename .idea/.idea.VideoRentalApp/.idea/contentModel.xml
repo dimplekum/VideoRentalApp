@@ -34,6 +34,15 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="Resources" t="Include">
+          <e p="customer_insight_50px.png" t="Include" />
+          <e p="dashboard_50px.png" t="Include" />
+          <e p="film_reel_50px.png" t="Include" />
+          <e p="musical_50px.png" t="Include" />
+          <e p="new_50px.png" t="Include" />
+          <e p="v_64px.png" t="Include" />
+          <e p="vegas_50px.png" t="Include" />
+        </e>
         <e p="VideoRentalApp.csproj" t="IncludeRecursive" />
       </e>
       <e p="VideoRentalApp.sln" t="IncludeFlat" />
