@@ -1,0 +1,79 @@
+﻿<Window x:Class="VideoRentalApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VideoRentalApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+        <!-- Grid for tab bar -->
+        <Grid
+            Height="20"
+            VerticalAlignment="Top"
+            Background="#01558C">
+            
+            <TextBlock 
+                FontSize="14"
+                Foreground="#F0F0F0"
+                Margin="10, 0, 0, 0"
+                Text="Video Rental"></TextBlock>
+            
+            <StackPanel
+                HorizontalAlignment="Right"
+                Orientation="Horizontal">
+                
+                <Button
+                    x:Name="Minimize"
+                    Width="25"
+                    Margin="0, 0, 2, 0"></Button>
+            
+                <Button
+                    x:Name="CloseButton"
+                    Width="25"></Button>
+            </StackPanel>
+            
+        </Grid>
+        
+        <!-- Grid Side Navigation Bar -->
+        <Grid
+            Width="75"
+            Margin="0, 20, 0, 0"
+            HorizontalAlignment="Left"
+            Background="#01558C">
+            
+            <StackPanel
+                Orientation="Vertical"
+                VerticalAlignment="Top">
+                
+                <Image
+                    x:Name="AppLogo"
+                    Height="75"></Image>
+            
+                <Button
+                    x:Name="Dashboard"
+                    Height="75"></Button>
+            
+                <Button
+                    x:Name="Movies"
+                    Height="75"></Button>
+            
+                <Button
+                    x:Name="Music"
+                    Height="75"></Button>
+            
+                <Button
+                    x:Name="Customers"
+                    Height="75"></Button>
+            
+                <Button
+                    x:Name="Rentals"
+                    Height="75"></Button>
+                
+            </StackPanel>
+            
+        </Grid>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+F:\C# Projects\VideoRentalApp\VideoRentalApp\bin\Debug\VideoRentalApp.exe.config
+F:\C# Projects\VideoRentalApp\VideoRentalApp\bin\Debug\VideoRentalApp.exe
+F:\C# Projects\VideoRentalApp\VideoRentalApp\bin\Debug\VideoRentalApp.pdb
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp.csprojAssemblyReference.cache
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\MainWindow.g.cs
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\App.g.cs
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp_MarkupCompile.cache
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp_MarkupCompile.lref
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\MainWindow.baml
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp.g.resources
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp.Properties.Resources.resources
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp.csproj.GenerateResource.cache
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp.exe
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp.pdb
+F:\C# Projects\VideoRentalApp\VideoRentalApp\obj\Debug\VideoRentalApp_Content.g.cs
